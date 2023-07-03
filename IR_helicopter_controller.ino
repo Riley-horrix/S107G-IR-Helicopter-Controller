@@ -51,6 +51,6 @@ void loop(void) {
 
   instruction = construct_instruction();
 
-  delayMicroseconds(INSTR_DURATION - (micros() % INSTR_DURATION));
+  delayMicroseconds(TIME_TILL_NEXT_INSTR);
 
 }
