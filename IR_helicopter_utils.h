@@ -40,6 +40,8 @@
 
 #define INSTR_DURATION 180000
 
+#define TIME_TILL_NEXT_INSTR (INSTR_DURATION - (micros() % INSTR_DURATION))
+
 
 /** 
  * This function returns a 32 bit instruction, that is dynamically controlled
