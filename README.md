@@ -80,9 +80,9 @@ After some breif prototyping, I decided that the following circuit layout was th
 
 The final design looks like so (along with a swiftly made glove): 
 
-[Full-layout](https://github.com/Riley-horrix/S107G-IR-Helicopter-Controller/assets/81515896/203e1fa6-2ee9-4b91-b18c-a90061dcc02a) </br>
-[Hand-mount1](https://github.com/Riley-horrix/S107G-IR-Helicopter-Controller/assets/81515896/dc0f3a60-6d3d-4e72-a8bb-d07755de720c) </br>
-[Hand-mount2](https://github.com/Riley-horrix/S107G-IR-Helicopter-Controller/assets/81515896/337dfbb4-ea92-43e0-bf5f-bf6328dc8d17) </br>
+[Hand-mount1](https://github.com/Riley-horrix/S107G-IR-Helicopter-Controller/assets/81515896/203e1fa6-2ee9-4b91-b18c-a90061dcc02a) </br>
+[Hand-mount2](https://github.com/Riley-horrix/S107G-IR-Helicopter-Controller/assets/81515896/dc0f3a60-6d3d-4e72-a8bb-d07755de720c) </br>
+[Full-layout](https://github.com/Riley-horrix/S107G-IR-Helicopter-Controller/assets/81515896/337dfbb4-ea92-43e0-bf5f-bf6328dc8d17) </br>
 </br>
 
 ## The code
