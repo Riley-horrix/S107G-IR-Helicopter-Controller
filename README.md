@@ -80,25 +80,31 @@ After some breif prototyping, I decided that the following circuit layout was th
 
 The final design looks like so (along with a swiftly made glove): 
 
-[Full-layout](https://github.com/Riley-horrix/S107G-IR-Helicopter-Controller/assets/81515896/203e1fa6-2ee9-4b91-b18c-a90061dcc02a)
-[Hand-mount1](https://github.com/Riley-horrix/S107G-IR-Helicopter-Controller/assets/81515896/dc0f3a60-6d3d-4e72-a8bb-d07755de720c)
-[Hand-mount2](https://github.com/Riley-horrix/S107G-IR-Helicopter-Controller/assets/81515896/337dfbb4-ea92-43e0-bf5f-bf6328dc8d17)
+[Full-layout](https://github.com/Riley-horrix/S107G-IR-Helicopter-Controller/assets/81515896/203e1fa6-2ee9-4b91-b18c-a90061dcc02a) </br>
+[Hand-mount1](https://github.com/Riley-horrix/S107G-IR-Helicopter-Controller/assets/81515896/dc0f3a60-6d3d-4e72-a8bb-d07755de720c) </br>
+[Hand-mount2](https://github.com/Riley-horrix/S107G-IR-Helicopter-Controller/assets/81515896/337dfbb4-ea92-43e0-bf5f-bf6328dc8d17) </br>
 </br>
+
+## The code
+
+Briefly, the repo contains three files used for the arduino, one python script for the BBC microbit and
+this README. The arduino code is all written and was compiled in the arduino IDE, using the board : NodeMCU 1.0 (ESP-12E Module).
+And the BBC code was written and compiled on the BBC makecode editor.
+
+Something I thought was quite elegant was that each instruction is sent 180ms aligned. It only takes 30-50ms to send the whole instruction
+which gives you about a tenth of a second to do all of the calculations needed to send the next instruction. 
 
 
 ## Refletions and future improvements
 
-### 3 axis continuous input.
+### 3 axis continuous input
 The 3 bit resolution for two axis of movement was definitely sub optimal and hard to use.
 It could have been better to swap out the throttle and replace the analogue input in the esp as the yaw.
 This would be relatively easy as the microbit can deliver a 10 bit resolution analogue output. Then you 
 could swap out the throttle offset buttons, for throttle increase / decrease. 
 
-### 
-
-
-  
-
-
-
+### Control range
+I believe that I was definitely doing something wrong with the IR LED because the total flyable range was about 1m, 
+so I ended up following the helicopter wherever it went. Maybe it would have been a better idea to have an array of said
+LEDs in parallel to increase the intensity, or just make sure I was delivering the correct power.
 
